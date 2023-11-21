@@ -32,3 +32,20 @@ Exibimos os livros da API manipulando o DOM através do método forEach.
 ## Aula 02 - Map: Novo array modificado
 
 ### Aula 02 - Como funciona o map - Video 1
+
+Nesta aula, o instrutor aborda o uso do método map() em JavaScript. O map() é utilizado para invocar uma função de callback para cada elemento de um array e retorna um novo array como resultado. O instrutor demonstra um exemplo prático multiplicando cada elemento de um array por dois. Ele destaca que o map() não altera o array original, mas cria uma cópia com os novos valores. Além disso, o map() retorna um valor, ao contrário do método forEach(), e é possível utilizar o retorno da função para realizar outras ações.  
+O método map invoca a função passada por argumento para cada elemento do array e devolve um novo Array como resultado.  
+E essa é a principal diferença entre os métodos map e forEach. Sendo assim, o forEach manipula os dados reais de um array e o map cria um novo array.
+
+### Aula 02 - Desconto com map - Video 2
+
+Nesta aula, o instrutor organiza o código em arquivos separados e implementa a funcionalidade de aplicar descontos nos preços dos livros. Ele utiliza os métodos forEach e map para percorrer a lista de livros e realizar as operações necessárias. Além disso, ele utiliza o spread operator e o método toFixed para fazer cópias de objetos e formatar os valores exibidos na tela.
+
+### Aula 02 Conclusão - Nesta aula
+
+Aprendemos que o método map executa uma função para cada elemento do array e devolve um novo array como resultado;  
+Aplicamos um desconto através do método map nos preços de cada livro do nosso projeto e entendemos a diferença entre os métodos forEach e map.
+
+## Aula 03 - 
+
+### Aula 03 -  - Video 1
