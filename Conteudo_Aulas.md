@@ -46,6 +46,38 @@ Nesta aula, o instrutor organiza o código em arquivos separados e implementa a 
 Aprendemos que o método map executa uma função para cada elemento do array e devolve um novo array como resultado;  
 Aplicamos um desconto através do método map nos preços de cada livro do nosso projeto e entendemos a diferença entre os métodos forEach e map.
 
-## Aula 03 - 
+## Aula 03 - Filter: aplicando filtros diferentes
 
-### Aula 03 -  - Video 1
+### Aula 03 - filter - Video 1
+
+Nesta aula, o palestrante discute a implementação de filtros em um projeto. Ele explica o funcionamento do método filter em JavaScript, que cria um novo array com base em uma função que retorna um valor booleano. O objetivo é filtrar elementos de um array de acordo com determinados critérios, como categorias de livros. O palestrante demonstra exemplos práticos de como utilizar o método filter para criar novos conjuntos de elementos. Ele destaca a importância desse método para a criação de filtros em projetos.
+
+### Aula 03 - Como funciona o filter - Video 2
+
+Nesta aula, o instrutor explica como aplicar o método filter em botões de uma página web. Ele cria um novo arquivo chamado metodoFilter.js e adiciona-o ao projeto. Em seguida, ele adiciona um evento de clique a um botão específico. Ao clicar no botão, é executada a função filtrarLivrosDeFront(), que utiliza o método filter para filtrar os livros da categoria "front-end" e armazená-los em uma variável chamada livrosFiltrados. Os livros filtrados são exibidos no console utilizando console.table(livrosFiltrados). O instrutor menciona a possibilidade de aplicar o mesmo comportamento a outros botões de categorias diferentes, como "back-end" e "dados", e promete abordar esse assunto no próximo vídeo.
+
+### Aula 03 - Filter de livros - Video 3
+
+Nesta aula, o instrutor mostra como otimizar o código ao atribuir a mesma função a vários botões. Ele utiliza o método document.querySelectorAll para selecionar todos os botões com a classe .btn e atribui a lista resultante a uma variável chamada botoes. Em seguida, ele utiliza o método forEach para percorrer cada botão da lista e atribuir a função filtrarLivros a cada um deles.
+
+No entanto, o instrutor percebe que todos os botões estão filtrando os livros de front-end, o que não é o comportamento desejado. Ele explica que é necessário identificar qual botão foi clicado para saber qual é a categoria correspondente. Para isso, ele utiliza o método getElementById para obter o botão específico que foi clicado e, em seguida, utiliza a propriedade value para obter a categoria desse botão.
+
+Com a categoria identificada, o instrutor utiliza a função filter para filtrar os livros com base nessa categoria. Ele utiliza o método console.table para exibir os livros filtrados no console. O instrutor demonstra que, ao clicar nos diferentes botões, apenas os livros da categoria correspondente são exibidos no console.
+
+O próximo desafio mencionado pelo instrutor é exibir esses livros filtrados na tela.
+
+### Aula 03 - Livros filtrados na tela - Video 4
+
+Nesta aula, o instrutor discute sobre a funcionalidade de exibir os livros na tela ao clicar nos botões correspondentes. Ele sugere utilizar a função exibirOsLivrosNaTela presente no método forEach para substituir o console.table e exibir os livros na tela. Porém, ao clicar novamente nos botões, os livros são repetidos. Para resolver esse problema, ele propõe modificar o elemento elementoParaInserirLivros no método forEach e limpar o conteúdo do elemento utilizando a propriedade .innerHTML e atribuindo uma string vazia. Dessa forma, apenas os livros correspondentes serão exibidos na tela. O instrutor destaca a reutilização do código já desenvolvido e a possibilidade de cruzar informações entre os métodos forEach e filter para realizar o filtro dos botões.
+
+### Aula 03 Conclusão - Nesta aula:
+
+Realizamos testes na documentação oficial do JavaScript para entender como o método filter funciona;
+
+Atribuímos um evento de click no botão para filtrar os livros por categoria através do filter;
+
+Exibimos os livros filtrados por categoria e que estejam disponíveis.
+
+## Aula 04 - 
+
+### Aula 04 -  - Video 1
