@@ -10,10 +10,8 @@ botoes.forEach(btns => btns.addEventListener('click', filtrarLivros));
 
 function filtrarLivros(){
     const atualBntClick = document.getElementById(this.id);
-    const categoriaBtn = atualBntClick.value
-    let livrosFiltrados = livros.filter(livro => 
-        livro.categoria === categoriaBtn
-    );
+    const btnValue = atualBntClick.value
+    let livrosFiltrados = btnValue == 'disponivel' ? livros.filter(livro => livro.quantidade > 0) : livros.filter(livro => livro.categoria == btnValue);
     // console.table(livrosFiltrados);
     exibirOsLivrosNaTela(livrosFiltrados)
 };

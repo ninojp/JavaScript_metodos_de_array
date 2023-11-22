@@ -78,6 +78,32 @@ Atribuímos um evento de click no botão para filtrar os livros por categoria at
 
 Exibimos os livros filtrados por categoria e que estejam disponíveis.
 
-## Aula 04 - 
+## Aula 04 - Sort: Ordenando a lista
 
-### Aula 04 -  - Video 1
+### Aula 04 - Como funciona o sort - Video 1
+
+Nesta aula, o instrutor discute sobre o método array.prototype.sort() em JavaScript, que é responsável por ordenar os elementos de um array. Ele explica que a ordenação não é necessariamente estável e depende da conversão dos elementos para string e da pontuação de código unicode de cada caractere. O instrutor mostra exemplos de ordenação de frutas e números para ilustrar como a função de comparação pode ser utilizada para definir a ordem dos elementos. Ele também menciona que elementos undefined são classificados no final do array. Para obter uma ordenação estável, o instrutor cria uma função de comparação que retorna a diferença entre os valores a e b. Ele demonstra como usar essa função para obter a ordenação desejada e destaca a importância de aplicar esse conhecimento em projetos que necessitam de ordenação.
+
+### Aula 04 - sort de livros - Video 2
+
+Nesta aula, o instrutor ensina como implementar a ordenação por preço em um projeto utilizando o método sort() em JavaScript. Ele cria uma função chamada ordenarLivrosPorPreco que utiliza o sort() para ordenar os livros por preço. Além disso, ele explica a importância de chamar a função exibirOsLivrosNaTela para mostrar os livros ordenados corretamente. O instrutor também mostra como passar uma função de comparação para o sort(), utilizando a sintaxe (a, b) => a.preco - b.preco, para ordenar os livros de acordo com o critério desejado. No final, ele testa a funcionalidade e os livros são exibidos corretamente na tela, ordenados pelo preço.
+
+### Aula 04 - Livros indisponíveis - Video 3
+
+Nesta aula, o instrutor discute sobre a implementação de uma funcionalidade no projeto AluraBooks que permite aos usuários saberem se um livro está disponível ou não. Ele mostra como utilizar a propriedade "quantidade" de cada livro para verificar se ele está disponível. O instrutor cria uma função chamada "verificarDisponibilidadeDoLivro" que retorna a classe correspondente ao estado do livro (disponível ou indisponível). Ele também mostra duas formas de implementar essa verificação: utilizando um "if" tradicional e utilizando o operador ternário. Por fim, o instrutor menciona que ainda falta implementar a funcionalidade de exibir os livros indisponíveis e a ordenação por preço, que serão os próximos desafios do projeto.
+
+### Aula 04 - Filtrando livros disponíveis - Video 4
+
+Nesta aula, aprendemos como implementar filtros para exibir apenas os livros disponíveis em um projeto. Utilizamos o método .filter para percorrer a lista de livros e verificar as condições estabelecidas. Verificamos o valor do botão no arquivo index.html e, se for igual a "disponível", filtramos os livros com base na quantidade disponível. Caso contrário, o filtro é feito com base na categoria selecionada anteriormente. Ao final, verificamos se os filtros estão funcionando corretamente, exibindo apenas os livros disponíveis quando o botão correspondente é selecionado. A implementação foi bem-sucedida e a variável livrosFiltrados foi atualizada de acordo com as condições estabelecidas.
+
+### Aula 04 Conclusão - Nesta aula
+
+Aprendemos como funciona o método de ordenação de array sort;
+
+Ordenamos os livros da aplicação por preço;
+
+Melhoramos a experiência do usuário da aplicação, aplicando uma opacidade nos livros indisponíveis.
+
+## Aula 05 - Sort: Ordenando a lista
+
+### Aula 05 -  - Video 1
